@@ -315,7 +315,6 @@ public class TestAnything {
         String s1 = "ab";
         String s2 = A+"b";//常量引用和字符串常量拼接
         String s3 = s2.intern();
-
         System.out.println(s == s1);
         System.out.println(s == s2);
         System.out.println(s2 == s1);
